@@ -1,0 +1,24 @@
+a{
+    color: black;
+}
+
+a:hover{
+    color: green;
+}
+
+/* .navbar */
+.logo-img{
+    height: 70px;
+    width: 70px;
+    content: url(images/coins-logo.png);
+}
+
+.nav-bg-color{
+    background-color: rgb(196, 201, 196);
+}
+
+
+
+
+/* .navbar */
+
