@@ -17,8 +17,52 @@ a:hover{
     background-color: rgb(196, 201, 196);
 }
 
+/* Images */
+.sponsor-1{
+    content: url(images/partners/appia-capital.jpg);
+}
+.sponsor-2{
+    content: url(images/partners/atico.jpg);
+}
 
+.sponsor-3{
+    content: url(images/partners/bbm-investimentos.jpg);
+}
 
+.sponsor-4{
+    content: url(images/partners/btgpactual.jpg);
+}
 
-/* .navbar */
+.sponsor-5{
+    content: url(images/partners/canvas-capital.jpg);
+}
+
+.sponsor-6{
+    content: url(images/partners/claritas.jpg);
+}
+
+.sponsor-7{
+    content: url(images/partners/deutsche-bank.jpg);
+}
+
+.sponsor-8{
+    content: url(images/partners/franklin-templeton-investments.jpg);
+}
+
+.sponsor-9{
+    content: url(images/partners/jpmorgan.jpg);
+}
+
+.sponsor-10{
+    content: url(images/partners/parceiro-sulamerica.jpg);
+}
+
+.sponsor-11{
+    content: url(images/partners/patrimonial.jpg);
+}
+
+.sponsor-12{
+    content: url(images/partners/votorantim.jpg);
+}
+
 
