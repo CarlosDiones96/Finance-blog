@@ -1,9 +1,9 @@
-a{
-    color: black;
-}
 
-a:hover{
-    color: green;
+button:not(.small-rounded-btn):not(.navbar-toggler){
+    color: red;
+    background-color: aqua;
+    border: none;
+    border-radius: 5px;
 }
 
 /* .navbar */
@@ -65,4 +65,13 @@ a:hover{
     content: url(images/partners/votorantim.jpg);
 }
 
+.relative-element{
+    position: relative;
+    bottom: 30px;
+}
+
+.small-rounded-btn{
+    padding: 6px;  
+    border-radius: 50%;
+}
 
