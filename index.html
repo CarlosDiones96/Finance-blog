@@ -8,7 +8,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=PT+Serif&display=swap"
+        rel="stylesheet">
 
     <title>Assessoria financeira</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
@@ -30,7 +31,8 @@
     <header class="container-fluid fixed-top mb-5">
         <nav class="navbar navbar-expand-lg bg-primary rounded">
             <div>
-                <a class="navbar-brand" href="#"><img class="logo-img shadow rounded-circle mr-3">Assessoria<span class="text-light">financeira</span></a>
+                <a class="navbar-brand" href="#"><img class="logo-img shadow rounded-circle mr-3">Assessoria<span
+                        class="text-light">financeira</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -118,14 +120,16 @@
         </section> <!-- nosso foco -->
         <section class="container border border-primary rounded mt-4 shadow">
             <!-- planejamento -->
-            <h1 class="text-center h1">Planejamento financeiro</h1>
+            <h1 class="text-center h1 pt-3">Planejamento financeiro</h1>
             <div id="planejamento-pai" class="">
                 <div id="planejamento1" class="">
-                    <div class="border">
+                    <div class="d-flex flex-row mb-3 border border-secondary">
                         <img class="planejamento-img1  img-default-size">
-                        <h3>Conhecer</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio.</p>
-                        <button>Saiba mais</button>
+                        <div class="d-flex flex-column flex-fill justify-content-between">
+                            <h3 class="pl-3">Conhecer</h3>
+                            <p class="pl-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, doloribus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, aliquid!</p>
+                            <button class="know-more-btn align-self-end justify-self-end">Saiba mais</button>
+                        </div>
                     </div>
                 </div><!-- #planejamento1 -->
                 <div id="planejamento2" class="border">
@@ -134,7 +138,7 @@
                         <h3>Planejar</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit
                             amet.</p>
-                        <button>Saiba mais</button>
+                        <button class="know-more-btn">Saiba mais</button>
                     </div>
                 </div><!-- #planejamento2 -->
                 <div id="planejamento3" class="">
@@ -143,7 +147,7 @@
                         <h3>Aplicar</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit,
                             amet consectetur adipisicing elit. Error, esse!</p>
-                        <button>Saiba mais</button>
+                        <button class="know-more-btn">Saiba mais</button>
                     </div>
                 </div><!-- #planejamento3 -->
                 <div id="planejamento4" class="">
@@ -152,7 +156,7 @@
                         <h3>Acompanhar</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit.
                         </p>
-                        <button>Saiba mais</button>
+                        <button class="know-more-btn">Saiba mais</button>
                     </div>
                 </div><!-- #planejamento4 -->
             </div>
@@ -226,13 +230,14 @@
                         dignissimos reprehenderit exercitationem.</p>
                 </article>
             </div>
-            <div>
-                <button id="depoimentos-btn1" class="small-rounded-btn"></button>
-                <button id="depoimentos-btn2" class="small-rounded-btn"></button>
-                <button id="depoimentos-btn3" class="small-rounded-btn"></button>
-                <button id="depoimentos-btn4" class="small-rounded-btn"></button>
-            </div>
         </section><!-- depoimentos -->
+        <div class="container mb-4">
+            <button id="depoimentos-btn1" class="small-rounded-btn"></button>
+            <button id="depoimentos-btn2" class="small-rounded-btn"></button>
+            <button id="depoimentos-btn3" class="small-rounded-btn"></button>
+            <button id="depoimentos-btn4" class="small-rounded-btn"></button>
+        </div>
+
         <section class="container border border-primary rounded shadow">
             <!-- parceiros -->
             <h2 class="text-center h1">Nossos parceiros</h2>
@@ -256,12 +261,12 @@
                     <img class="sponsor-12 col-6 col-sm-6 col-md-3">
                 </div>
             </div>
-            <div class="container">
-                <button id="parceiros-btn1" class="small-rounded-btn"></button>
-                <button id="parceiros-btn2" class="small-rounded-btn"></button>
-                <button id="parceiros-btn3" class="small-rounded-btn"></button>
-            </div>
         </section><!-- parceiros -->
+        <div class="container">
+            <button id="parceiros-btn1" class="small-rounded-btn"></button>
+            <button id="parceiros-btn2" class="small-rounded-btn"></button>
+            <button id="parceiros-btn3" class="small-rounded-btn"></button>
+        </div>
     </main><!-- main -->
     <!-- -------------------------------------------------------------------------------------->
     <footer class="container-fluid bg-secondary mt-5">

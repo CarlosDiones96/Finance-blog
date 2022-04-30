@@ -117,6 +117,16 @@ button.small-rounded-btn{
     background-color: #f77f00;
 }
 
+.know-more-btn{
+    border-radius: 8px;
+    /* border: 1px solid #f77f00; */
+    border: none;
+    background-color: #f77f00;
+    padding: .4rem .8rem;
+    color: #eae2b7;
+    max-width: 110px;
+}
+
 /******************************** OVERRIDES **************************/
 
 /*
