@@ -1,11 +1,4 @@
 
-button:not(.small-rounded-btn):not(.navbar-toggler){
-    color: red;
-    background-color: aqua;
-    border: none;
-    border-radius: 5px;
-}
-
 /* .navbar */
 .logo-img{
     height: 70px;
@@ -13,11 +6,37 @@ button:not(.small-rounded-btn):not(.navbar-toggler){
     content: url(images/coins-logo.png);
 }
 
-.nav-bg-color{
-    background-color: rgb(196, 201, 196);
+.logo-img-small{
+    height: 50px;
+    width: 50px;
+    content: url(images/coins-logo.png);
 }
 
+
 /* Images */
+.planejamento-img1{
+    content: url(images/planejamento.jpg);
+}
+
+.planejamento-img2{
+    content: url(images/fundos-imobiliarios.jpg);
+}
+
+.planejamento-img3{
+    content: url(images/fundos-investimento.jpg);
+}
+
+.planejamento-img4{
+    content: url(images/titulos-publicos.jpg);
+}
+
+.img-default-size{
+    width: 269px;
+    height: 180px;
+}
+
+
+
 .sponsor-1{
     content: url(images/partners/appia-capital.jpg);
 }
@@ -65,13 +84,114 @@ button:not(.small-rounded-btn):not(.navbar-toggler){
     content: url(images/partners/votorantim.jpg);
 }
 
+.face-icon{
+    content: url(images/facebook.png);
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    filter: invert();
+}
+
+.insta-icon{
+    content: url(images/instagram.png);
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    filter: invert();
+}
+
 .relative-element{
     position: relative;
     bottom: 30px;
 }
 
 .small-rounded-btn{
-    padding: 6px;  
+    padding: 8px;  
     border-radius: 50%;
+    border: none;
 }
 
+button.small-rounded-btn{
+    background-color: #f77f00;
+}
+
+/******************************** OVERRIDES **************************/
+
+/*
+
+Paleta de cores 
+#003049  - escuro
+#d62828  - vermelho
+#f77f00  - laranja
+#fcbf49  - amarelo
+#eae2b7  - bege
+
+*/
+
+.text-primary{
+    color: #fcbf49 !important;
+}
+
+.bg-primary{
+    background: rgb(247,127,0);
+    background: linear-gradient(90deg, rgba(247,127,0,1) 0%, rgba(234,226,183,1) 100%);
+}
+
+.bg-secondary{
+    background-color:#003049 !important;
+}
+
+.bg-info{
+    background-color: #eae2b7 !important;
+}
+
+.border-primary{
+    border-color: #f77f00 !important;
+}
+
+/********************** ESPECIFICIDADE *****************************/
+
+p, a{
+    font-size: 1.1rem;
+}
+
+a, p, h1, h2, h3, h4, h5, h6{
+    color: #003049 !important;
+}
+
+footer p, footer h2, footer h3, footer h4, footer h5{
+    color: white !important;
+}
+
+footer a{
+    color: #f77f00 !important;
+}
+
+section.relative-element p{
+    color: #003049 !important;
+}
+
+a.navbar-brand{
+    font-family: 'Arima Madurai', cursive !important;
+    font-size: 28px;
+}
+
+.brand-text-footer{
+    font-family: 'Arima Madurai', cursive !important;
+    font-size: 20px;
+}
+
+a, p{
+    font-family: 'PT Serif', serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Arima Madurai', cursive !important;
+}
+
+section ul{
+    list-style: none;
+    padding-left: 0;
+}

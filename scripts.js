@@ -49,29 +49,27 @@ $(function () {
 
     // FUNCTIONS
     function initializeElements() {
-        $('#planejamento1').siblings().addClass('d-none'); // precisa de muitos ajustes
+        $('#planejamento1').hide().slideDown('slow').siblings().hide();
+        $('#depoimento1').hide().slideDown('slow').siblings().hide();
+        $('#parceiro1').hide().slideDown('slow').siblings().hide();
+    }
 
-        // $('#depoimento1').siblings().addClass('d-none');
-        $('#depoimento1').siblings().addClass('d-none');
+    function animateNumbers(elt){
 
-        $('#parceiro1').siblings().addClass('d-none');
     }
 
 
-    function animateElement(btnId, eltId) { // talvez os botões não sejam necessários
+    function animateElement(btnId, eltId) {
         const id = '#' + btnId;
         const elt = '#' + eltId;
-        $(id).on('click', function () {
-            if ($(elt).hasClass('d-none')) {
-                $(elt).removeClass('d-none').delay(300).slideDown(500);
-            } else {
-                $(elt).addClass('d-none');
-            }
+        $(id).on('click', function(){
+            $(elt).fadeIn('slow')
+            .siblings()
+            .hide();
         });
     }
 
-    // FUNCTION CALLS
-    $('header.container-fluid').hide().delay(600).slideDown(600);
+    // FUNCTION CALLS 
 
     initializeElements();
 

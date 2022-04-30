@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@500&family=PT+Serif&display=swap" rel="stylesheet">
+
     <title>Assessoria financeira</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -27,10 +27,10 @@
 -->
 
 <body>
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg nav-bg-color">
+    <header class="container-fluid fixed-top mb-5">
+        <nav class="navbar navbar-expand-lg bg-primary rounded">
             <div>
-                <a class="navbar-brand" href="#"><img class="logo-img">Assessoria financeira</a>
+                <a class="navbar-brand" href="#"><img class="logo-img shadow rounded-circle mr-3">Assessoria<span class="text-light">financeira</span></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                     aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -80,12 +80,12 @@
     </header><!-- header -->
 
     <!-- -------------------------------------------------------------------------------------->
-    <main>
+    <main class="mt-5 pt-5">
         <!-- main -->
-        <section class="container">
+        <section class="container border border-primary rounded my-4 shadow">
             <!-- nosso foco -->
-            <div class="d-flex flex-column align-items-center border border-primary">
-                <h2>Nosso <span>Foco</span></h2>
+            <div class="d-flex flex-column align-items-center">
+                <h2 class="h1">Nosso <span>Foco</span></h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
                     illum perspiciatis soluta!</p>
             </div>
@@ -116,13 +116,13 @@
                 </div>
             </div>
         </section> <!-- nosso foco -->
-        <section class="container">
+        <section class="container border border-primary rounded mt-4 shadow">
             <!-- planejamento -->
-            <h1 class="text-center">Planejamento financeiro</h1>
-            <div id="planejamento-pai" class="border border-primary">
+            <h1 class="text-center h1">Planejamento financeiro</h1>
+            <div id="planejamento-pai" class="">
                 <div id="planejamento1" class="">
                     <div class="border">
-                        <img>
+                        <img class="planejamento-img1  img-default-size">
                         <h3>Conhecer</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio.</p>
                         <button>Saiba mais</button>
@@ -130,7 +130,7 @@
                 </div><!-- #planejamento1 -->
                 <div id="planejamento2" class="border">
                     <div class="border">
-                        <img>
+                        <img class="planejamento-img2  img-default-size">
                         <h3>Planejar</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit
                             amet.</p>
@@ -139,7 +139,7 @@
                 </div><!-- #planejamento2 -->
                 <div id="planejamento3" class="">
                     <div class="border">
-                        <img>
+                        <img class="planejamento-img3  img-default-size">
                         <h3>Aplicar</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit,
                             amet consectetur adipisicing elit. Error, esse!</p>
@@ -147,8 +147,8 @@
                     </div>
                 </div><!-- #planejamento3 -->
                 <div id="planejamento4" class="">
-                    <div  class="border">
-                        <img>
+                    <div class="border">
+                        <img class="planejamento-img4 img-default-size">
                         <h3>Acompanhar</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit.
                         </p>
@@ -158,7 +158,7 @@
             </div>
         </section><!-- planejamento -->
 
-        <div class="container">
+        <div class="container mb-4">
             <!-- colocar em position relative por cima dos itens -->
             <button id="planejamento-btn1" class="small-rounded-btn"></button>
             <button id="planejamento-btn2" class="small-rounded-btn"></button>
@@ -166,10 +166,10 @@
             <button id="planejamento-btn4" class="small-rounded-btn"></button>
         </div>
 
-        <section class="container border border-secondary">
+        <section class="container border border-primary rounded my-4 shadow">
             <!-- plataforma -->
             <div class="">
-                <h2 class="text-center">Plataforma aberta de ivestimentos</h2>
+                <h2 class="text-center h1">Plataforma aberta de ivestimentos</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing. Lorem, ipsum.</p>
             </div>
             <div class="row border m-auto">
@@ -200,9 +200,9 @@
                 </div>
             </div>
         </section><!-- plataforma -->
-        <section class="container">
+        <section class="container rounded border border-primary my-4 shadow">
             <!-- depoimentos -->
-            <h2 class="text-center">Alguns depoimentos</h2>
+            <h2 class="text-center h1">Alguns depoimentos</h2>
             <div id="depoimento-pai" class="row">
                 <article id="depoimento1" class="card col-lg-12 text-center">
                     <h3>Tiago (Médico)</h3>
@@ -233,9 +233,9 @@
                 <button id="depoimentos-btn4" class="small-rounded-btn"></button>
             </div>
         </section><!-- depoimentos -->
-        <section class="container border border-danger">
+        <section class="container border border-primary rounded shadow">
             <!-- parceiros -->
-            <h2 class="text-center">Nossos parceiros</h2>
+            <h2 class="text-center h1">Nossos parceiros</h2>
             <div id="parceiro-pai" class="">
                 <div id="parceiro1" class="row">
                     <img class="sponsor-1 col-6 col-sm-6 col-md-3">
@@ -266,7 +266,7 @@
     <!-- -------------------------------------------------------------------------------------->
     <footer class="container-fluid bg-secondary mt-5">
         <!-- footer -->
-        <section class="container bg-warning rounded-pill relative-element">
+        <section class="container bg-info rounded shadow relative-element">
             <div class="row align-items-center pt-2">
                 <p class="col-12 col-md-3">WhatsApp: 219999-9999</p>
                 <p class="col-12 col-md-3">contato@finance.com</p>
@@ -276,29 +276,29 @@
         </section>
         <section class="container m-auto border row">
             <section class="col-md-6 col-lg-2">
-                <div>
-                    <div>
-                        <img>
-                        <h4>Assessoria financeira</h4>
+                <div class="">
+                    <div class="d-flex flex-row align-items-center justify-content-start">
+                        <img class="logo-img-small p-0 m-0">
+                        <p class="p-0 m-0 ml-2 brand-text-footer text-primary">Assessoria financeira</p>
                     </div>
-                    <p>Telefone: (21) 99999-6666</p>
+                    <p class="mt-3">Telefone: (21) 99999-6666</p>
                     <div>
-                        <a></a>
-                        <a></a>
+                        <a class="" href="#"><span class="face-icon"></span></a>
+                        <a class="" href="#"><span class="insta-icon"></span></a>
                     </div>
                 </div>
             </section>
             <section class="col-md-6 col-lg-3">
                 <h3>Links</h3>
                 <ul>
-                    <li><a>Início</a></li>
-                    <li><a>Quem somos</a></li>
-                    <li><a>Simulações</a></li>
-                    <li><a>Contato</a></li>
-                    <li><a>O que fazemos</a></li>
-                    <li><a>Investimentos</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Perguntas frequentes</a></li>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Simulações</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">O que fazemos</a></li>
+                    <li><a href="#">Investimentos</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Perguntas frequentes</a></li>
                 </ul>
             </section>
             <section class="col-md-6 col-lg-4">
@@ -307,10 +307,10 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni repudiandae culpa omnis officiis
                         error quam itaque mollitia. Facilis laboriosam, animi ipsam alias officiis eaque aliquam.</p>
                     <ul>
-                        <li><a>Código de ética </a></li>
-                        <li><a>Formulário de referência </a></li>
-                        <li><a>Compliance e controles </a></li>
-                        <li><a>Política de investimentos pessoais </a></li>
+                        <li><a href="#">Código de ética </a></li>
+                        <li><a href="#">Formulário de referência </a></li>
+                        <li><a href="#">Compliance e controles </a></li>
+                        <li><a href="#">Política de investimentos pessoais </a></li>
                     </ul>
                 </div>
             </section>
@@ -338,7 +338,8 @@
         </section>
     </footer><!-- footer -->
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>
