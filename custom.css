@@ -113,18 +113,57 @@
     border: none;
 }
 
+.diagnostico-img{
+    content: url(images/bar-chart.png);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 10px solid #f77f00;
+    padding: 6px;
+}
+
+.seguranca-financeira-img{
+    content: url(images/light-bulb.png);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 10px solid #f77f00;
+    padding: 6px;
+}
+
+.rentabilidade-img{
+    content: url(images/profit.png);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 10px solid #f77f00;
+    padding: 6px;
+}
+
+
 button.small-rounded-btn{
     background-color: #f77f00;
 }
 
 .know-more-btn{
-    border-radius: 8px;
-    /* border: 1px solid #f77f00; */
+    border-top-left-radius: 8px;
     border: none;
     background-color: #f77f00;
-    padding: .4rem .8rem;
+    padding: .3rem .6rem;
     color: #eae2b7;
     max-width: 110px;
+}
+
+.max-card-height{
+    max-height: 180px;
+}
+
+.max-text-height{
+    max-height: 86px;
+}
+
+.overfow-hidden{
+    overflow: hidden;
 }
 
 /******************************** OVERRIDES **************************/
@@ -140,10 +179,28 @@ Paleta de cores
 
 */
 
+/******************************* TEXT COLORS ********************************************/
+
 .text-primary{
     color: #fcbf49 !important;
 }
 
+.text-secondary{
+    color: #003049 !important;
+}
+
+
+.text-success{
+    color: white !important;
+}
+
+.text-danger{
+    color: #d62828 !important;
+}
+
+
+
+/******************************BACKGROUND COLORS ************************************/
 .bg-primary{
     background: rgb(247,127,0);
     background: linear-gradient(90deg, rgba(247,127,0,1) 0%, rgba(234,226,183,1) 100%);
@@ -156,6 +213,20 @@ Paleta de cores
 .bg-info{
     background-color: #eae2b7 !important;
 }
+
+.bg-danger{
+    background-color: #d62828 !important;
+}
+
+.bg-warning{
+    background-color: #f77f00 !important;
+}
+
+.bg-success{
+    background-color: #3b3b39 !important;
+}
+
+/********************** BORDER COLORS *******************************/
 
 .border-primary{
     border-color: #f77f00 !important;

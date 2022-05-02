@@ -29,7 +29,7 @@
 
 <body>
     <header class="container-fluid fixed-top mb-5">
-        <nav class="navbar navbar-expand-lg bg-primary rounded">
+        <nav class="navbar navbar-expand-lg bg-primary rounded shadow">
             <div>
                 <a class="navbar-brand" href="#"><img class="logo-img shadow rounded-circle mr-3">Assessoria<span
                         class="text-light">financeira</span></a>
@@ -86,34 +86,34 @@
         <!-- main -->
         <section class="container border border-primary rounded my-4 shadow">
             <!-- nosso foco -->
-            <div class="d-flex flex-column align-items-center">
-                <h2 class="h1">Nosso <span>Foco</span></h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-                    illum perspiciatis soluta!</p>
+            <div class="d-flex flex-column align-items-center border-bottom border-primary">
+                <h2 class="h1 pt-3">Nosso <span>foco</span></h2>
+                <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
+                    illum perspiciatis soluta! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, doloremque. Veniam magni laudantium suscipit odio iure, sapiente a. Ipsa, sit?</p>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <img>
+                <div class="col-sm-4 d-flex flex-column">
+                    <img class="diagnostico-img d-flex my-3 align-self-center">
                     <div>
-                        <h3>Diagnóstico</h3>
-                        <p>Inventore incidunt maiores, modi delectus facilis veritatis
+                        <h3 class="text-center">Diagnóstico</h3>
+                        <p class="">Inventore incidunt maiores, modi delectus facilis veritatis
                             voluptate rem nemo eum impedit ad vel ipsa sapiente. Dolorem dignissimos laborum similique
                             repellat minus.</p>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <img>
+                <div class="col-sm-4 d-flex flex-column">
+                    <img class="seguranca-financeira-img my-3 align-self-center">
                     <div>
-                        <h3>Segurança financeira</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        <h3 class="text-center">Segurança financeira</h3>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Inventore incidunt maiores. Dolorem dignissimos laborum similique repellat minus.</p>
                     </div>
                 </div>
-                <div class="col-sm-4">
-                    <img>
+                <div class="col-sm-4 d-flex flex-column">
+                    <img class="rentabilidade-img my-3 align-self-center">
                     <div>
-                        <h3>Rentabilidade</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        <h3 class="overflow-hidden text-center">Rentabilidade</h3>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque quia aliquid aspernatur nesciunt quis unde. Explicabo excepturi porro accusantium.</p>
                     </div>
                 </div>
             </div>
@@ -121,42 +121,59 @@
         <section class="container border border-primary rounded mt-4 shadow">
             <!-- planejamento -->
             <h1 class="text-center h1 pt-3">Planejamento financeiro</h1>
-            <div id="planejamento-pai" class="">
+            <div id="planejamento-pai">
+
                 <div id="planejamento1" class="">
-                    <div class="d-flex flex-row mb-3 border border-secondary">
-                        <img class="planejamento-img1  img-default-size">
-                        <div class="d-flex flex-column flex-fill justify-content-between">
-                            <h3 class="pl-3">Conhecer</h3>
-                            <p class="pl-3 text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, doloribus? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, aliquid!</p>
-                            <button class="know-more-btn align-self-end justify-self-end">Saiba mais</button>
+                    <div class="d-flex flex-row mb-3 shadow">
+                        <img class="planejamento-img1 img-default-size">
+                        <div
+                            class="d-flex flex-column flex-fill justify-content-between max-card-height overflow-hidden">
+                            <h3 class="pl-3 pt-3 bg-secondary text-white">Conhecer</h3>
+                            <p class="pl-3 text-justify overflow-hidden max-text-height">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit.</p>
+                            <button class="know-more-btn align-self-end">Saiba mais</button>
                         </div>
                     </div>
                 </div><!-- #planejamento1 -->
-                <div id="planejamento2" class="border">
-                    <div class="border">
-                        <img class="planejamento-img2  img-default-size">
-                        <h3>Planejar</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit
-                            amet.</p>
-                        <button class="know-more-btn">Saiba mais</button>
+                <div id="planejamento2" class="">
+                    <div class="d-flex flex-row mb-3">
+                        <img class="planejamento-img2 img-default-size">
+                        <div
+                            class="d-flex flex-column flex-fill justify-content-between max-card-height overflow-hidden">
+                            <h3 class="pl-3 pt-3 bg-secondary text-white">Planejar</h3>
+                            <p class="pl-3 text-justify overflow-hidden max-text-height">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor
+                                sit
+                                amet.</p>
+                            <button class="know-more-btn align-self-end">Saiba mais</button>
+                        </div>
                     </div>
                 </div><!-- #planejamento2 -->
                 <div id="planejamento3" class="">
-                    <div class="border">
-                        <img class="planejamento-img3  img-default-size">
-                        <h3>Aplicar</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit,
-                            amet consectetur adipisicing elit. Error, esse!</p>
-                        <button class="know-more-btn">Saiba mais</button>
+                    <div class="d-flex flex-row mb-3">
+                        <img class="planejamento-img3 img-default-size">
+                        <div
+                            class="d-flex flex-column flex-fill justify-content-between max-card-height overflow-hidden">
+                            <h3 class="pl-3 pt-3 bg-secondary text-white">Aplicar</h3>
+                            <p class="pl-3 text-justify overflow-hidden max-text-height">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor
+                                sit,
+                                amet consectetur adipisicing elit. Error, esse!</p>
+                            <button class="know-more-btn align-self-end">Saiba mais</button>
+                        </div>
                     </div>
                 </div><!-- #planejamento3 -->
                 <div id="planejamento4" class="">
-                    <div class="border">
+                    <div class="d-flex flex-row mb-3">
                         <img class="planejamento-img4 img-default-size">
-                        <h3>Acompanhar</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor sit.
-                        </p>
-                        <button class="know-more-btn">Saiba mais</button>
+                        <div class="d-flex flex-column flex-fill justify-content-between max-card-height overflow-hidden">
+                            <h3 class="pl-3 pt-3 bg-secondary text-white">Acompanhar</h3>
+                            <p class="pl-3 text-justify overflow-hidden max-text-height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor
+                                sit.
+                            </p>
+                            <button class="know-more-btn align-self-end">Saiba mais</button>
+                        </div>
                     </div>
                 </div><!-- #planejamento4 -->
             </div>
@@ -173,21 +190,21 @@
         <section class="container border border-primary rounded my-4 shadow">
             <!-- plataforma -->
             <div class="">
-                <h2 class="text-center h1">Plataforma aberta de ivestimentos</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing. Lorem, ipsum.</p>
+                <h2 class="text-center h1 pt-3">Plataforma aberta de ivestimentos</h2>
+                <p class="text-center">Lorem ipsum, dolor sit amet consectetur adipisicing. Lorem, ipsum.</p>
             </div>
-            <div class="row border m-auto">
-                <article class="col">
-                    <h3 id="number1">400</h3>
-                    <p>Fundos de investimento</p>
+            <div class="row m-auto text-center">
+                <article class="col text-center p-4 align-middle">
+                    <h3 id="number1" class="display-4 text-danger">+400</h3>
+                    <p class="h2">Fundos de investimento</p>
                 </article>
-                <article class="col">
-                    <h3 id="number2">50</h3>
-                    <p>Gestores de investimento</p>
+                <article class="col p-4 align-middle">
+                    <h3 id="number2" class="display-4 text-danger">+50</h3>
+                    <p class="h2">Gestores de investimento</p>
                 </article>
-                <article class="col">
-                    <h3 id="number3">600</h3>
-                    <p>Famílias satisfeitas</p>
+                <article class="col p-4 align-middle">
+                    <h3 id="number3" class="display-4 text-danger">+600</h3>
+                    <p class="h2">Famílias satisfeitas</p>
                 </article>
             </div>
             <div>
@@ -206,7 +223,7 @@
         </section><!-- plataforma -->
         <section class="container rounded border border-primary my-4 shadow">
             <!-- depoimentos -->
-            <h2 class="text-center h1">Alguns depoimentos</h2>
+            <h2 class="text-center h1 pt-3">Alguns depoimentos</h2>
             <div id="depoimento-pai" class="row">
                 <article id="depoimento1" class="card col-lg-12 text-center">
                     <h3>Tiago (Médico)</h3>
@@ -240,7 +257,7 @@
 
         <section class="container border border-primary rounded shadow">
             <!-- parceiros -->
-            <h2 class="text-center h1">Nossos parceiros</h2>
+            <h2 class="text-center h1 pt-3">Nossos parceiros</h2>
             <div id="parceiro-pai" class="">
                 <div id="parceiro1" class="row">
                     <img class="sponsor-1 col-6 col-sm-6 col-md-3">
