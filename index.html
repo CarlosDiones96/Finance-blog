@@ -20,22 +20,24 @@
 
 <!-- 
 
-    Próximo passo: 
--->
-
-<!-- 
-    https://confiancaplanejamento.com/ 
+    Próximo passo: mexer na seção #depoimento; consertar a altura do contêiner
 -->
 
 <body>
     <header class="container-fluid fixed-top mb-5">
         <nav class="navbar navbar-expand-lg bg-primary rounded shadow">
-            <div>
-                <a class="navbar-brand" href="#"><img class="logo-img shadow rounded-circle mr-3">Assessoria<span
-                        class="text-light">financeira</span></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+            <div class="d-flex flex-nowrap">
+                <a class="navbar-brand d-flex flex-nowrap align-items-center" href="#">
+                    <img class="logo-img shadow rounded-circle mr-3">
+                    <div class="d-flex flex-nowrap">
+                        <span class="">Blog</span>
+                        <span class="text-light">finanças</span>
+                    </div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="toggle-icon"></span>
                 </button>
             </div>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -89,7 +91,8 @@
             <div class="d-flex flex-column align-items-center border-bottom border-primary">
                 <h2 class="h1 pt-3">Nosso <span>foco</span></h2>
                 <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-                    illum perspiciatis soluta! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, doloremque. Veniam magni laudantium suscipit odio iure, sapiente a. Ipsa, sit?</p>
+                    illum perspiciatis soluta! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit,
+                    doloremque. Veniam magni laudantium suscipit odio iure, sapiente a. Ipsa, sit?</p>
             </div>
             <div class="row">
                 <div class="col-sm-4 d-flex flex-column">
@@ -113,7 +116,8 @@
                     <img class="rentabilidade-img my-3 align-self-center">
                     <div>
                         <h3 class="overflow-hidden text-center">Rentabilidade</h3>
-                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque quia aliquid aspernatur nesciunt quis unde. Explicabo excepturi porro accusantium.</p>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque quia aliquid
+                            aspernatur nesciunt quis unde. Explicabo excepturi porro accusantium.</p>
                     </div>
                 </div>
             </div>
@@ -124,7 +128,7 @@
             <div id="planejamento-pai">
 
                 <div id="planejamento1" class="">
-                    <div class="d-flex flex-row mb-3 shadow">
+                    <div class="d-flex flex-row flex-wrap mb-3">
                         <img class="planejamento-img1 img-default-size">
                         <div
                             class="d-flex flex-column flex-fill justify-content-between max-card-height overflow-hidden">
@@ -137,7 +141,7 @@
                     </div>
                 </div><!-- #planejamento1 -->
                 <div id="planejamento2" class="">
-                    <div class="d-flex flex-row mb-3">
+                    <div class="d-flex flex-row flex-wrap mb-3">
                         <img class="planejamento-img2 img-default-size">
                         <div
                             class="d-flex flex-column flex-fill justify-content-between max-card-height overflow-hidden">
@@ -151,7 +155,7 @@
                     </div>
                 </div><!-- #planejamento2 -->
                 <div id="planejamento3" class="">
-                    <div class="d-flex flex-row mb-3">
+                    <div class="d-flex flex-row flex-wrap mb-3">
                         <img class="planejamento-img3 img-default-size">
                         <div
                             class="d-flex flex-column flex-fill justify-content-between max-card-height overflow-hidden">
@@ -165,11 +169,13 @@
                     </div>
                 </div><!-- #planejamento3 -->
                 <div id="planejamento4" class="">
-                    <div class="d-flex flex-row mb-3">
+                    <div class="d-flex flex-row flex-wrap mb-3">
                         <img class="planejamento-img4 img-default-size">
-                        <div class="d-flex flex-column flex-fill justify-content-between max-card-height overflow-hidden">
+                        <div
+                            class="d-flex flex-column flex-fill justify-content-between max-card-height overflow-hidden">
                             <h3 class="pl-3 pt-3 bg-secondary text-white">Acompanhar</h3>
-                            <p class="pl-3 text-justify overflow-hidden max-text-height">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor
+                            <p class="pl-3 text-justify overflow-hidden max-text-height">Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit. Dolore, odio. Lorem ipsum dolor
                                 sit.
                             </p>
                             <button class="know-more-btn align-self-end">Saiba mais</button>
@@ -221,28 +227,30 @@
                 </div>
             </div>
         </section><!-- plataforma -->
-        <section class="container rounded border border-primary my-4 shadow">
+        <section class="container rounded border my-4 shadow bg-secondary">
             <!-- depoimentos -->
-            <h2 class="text-center h1 pt-3">Alguns depoimentos</h2>
-            <div id="depoimento-pai" class="row">
-                <article id="depoimento1" class="card col-lg-12 text-center">
-                    <h3>Tiago (Médico)</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nulla aperiam et explicabo obcaecati!
+            <h2 class="text-center text-white h1 pt-3">Alguns depoimentos</h2>
+            <div id="depoimento-pai" class="row default-card-height">
+                <article id="depoimento1"
+                    class="card col-lg-12 text-center p-3 d-flex flex-column align-items-center justify-content-center bg-info">
+                    <h3 class="text-secondary text-uppercase h2">Tiago <span class="text-lowercase">(Médico)</span></h3>
+                    <p class="quotation-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nulla aperiam
+                        et explicabo obcaecati!
                     </p>
                 </article>
-                <article id="depoimento2" class="card col-lg-12 text-center">
-                    <h3>Giovana (Servidora pública)</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius soluta fugiat dolor? Molestias
+                <article id="depoimento2" class="card col-lg-12 text-center p-3 d-flex flex-column align-items-center justify-content-center bg-info">
+                    <h3 class="text-secondary text-uppercase h2">Giovana <span class="text-lowercase">(Servidora pública)</span></h3>
+                    <p class="quotation-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius soluta fugiat dolor? Molestias
                         saepe sit, sunt est eligendi quidem voluptates?</p>
                 </article>
-                <article id="depoimento3" class="card col-lg-12 text-center">
-                    <h3>Marcos (Administrador)</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod dicta libero architecto ratione.
+                <article id="depoimento3" class="card col-lg-12 text-center p-3 d-flex flex-column align-items-center justify-content-center bg-info">
+                    <h3 class="text-secondary text-uppercase h2">Marcos <span class="text-lowercase">(Administrador)</span></h3>
+                    <p class="quotation-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod dicta libero architecto ratione.
                     </p>
                 </article>
-                <article id="depoimento4" class="card col-lg-12 text-center">
-                    <h3>Cecília (Empresária)</h3>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia commodi quo libero deserunt
+                <article id="depoimento4" class="card col-lg-12 text-center p-3 d-flex flex-column align-items-center justify-content-center bg-info">
+                    <h3 class="text-secondary text-uppercase h2">Cecília <span class="text-lowercase">(Empresária)</span></h3>
+                    <p class="quotation-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia commodi quo libero deserunt
                         pariatur! Totam explicabo quo veritatis quae voluptate blanditiis, odio quam? Quis possimus
                         dignissimos reprehenderit exercitationem.</p>
                 </article>
@@ -286,9 +294,9 @@
         </div>
     </main><!-- main -->
     <!-- -------------------------------------------------------------------------------------->
-    <footer class="container-fluid bg-secondary mt-5">
+    <footer class="container-fluid bg-secondary mt-5 mb-0 pb-0">
         <!-- footer -->
-        <section class="container bg-info rounded shadow relative-element">
+        <section class="container bg-danger rounded shadow relative-element">
             <div class="row align-items-center pt-2">
                 <p class="col-12 col-md-3">WhatsApp: 219999-9999</p>
                 <p class="col-12 col-md-3">contato@finance.com</p>
@@ -296,7 +304,7 @@
                     Edifício Vision | Sala 1504 - Asa Norte, Brasília-DF</p>
             </div>
         </section>
-        <section class="container m-auto border row">
+        <section class="container m-auto row">
             <section class="col-md-6 col-lg-2">
                 <div class="">
                     <div class="d-flex flex-row align-items-center justify-content-start">
@@ -336,27 +344,28 @@
                     </ul>
                 </div>
             </section>
-            <section class="col-md-6 col-lg-3">
+            <section id="more-articles" class="col-md-6 col-lg-3">
                 <h3>Artigos recentes</h3>
                 <div>
-                    <article>
-                        <img>
-                        <a href="#">Fundos de investimento imobiliário: o que são e como ter renda passiva com eles?</a>
+                    <article class="row border-bottom border-secondary pb-4">
+                        <img class="small-img-footer planejamento-img1 col-5 p-0 align-self-start">
+                        <a href="#" class="col-7">Fundos de investimento imobiliário: o que são e como ter renda passiva
+                            com eles?</a>
                     </article>
-                    <article>
-                        <img>
-                        <a href="#">Como se adaptar à volatilidade do mercado?</a>
+                    <article class="row border-bottom border-secondary py-4">
+                        <img class="small-img-footer planejamento-img2 col-5 p-0 align-self-start">
+                        <a href="#" class="col-7">Como se adaptar à volatilidade do mercado?</a>
                     </article>
-                    <article>
-                        <img>
-                        <a href="#">Tenho um alto padrão de vida. Como garantir o mesmo padrão na minha
+                    <article class="row py-4">
+                        <img class="small-img-footer planejamento-img3 col-5 p-0 align-self-start">
+                        <a href="#" class="col-7">Tenho um alto padrão de vida. Como garantir o mesmo padrão na minha
                             aposentadoria?</a>
                     </article>
                 </div>
             </section>
         </section>
-        <section class="container">
-            <p class="text-center">Copyright &copy - Desenvolvido por Carlos D. Santos</p>
+        <section class="container bg-success">
+            <p class="text-center text-muted">Copyright &copy - Desenvolvido por Carlos D. Santos</p>
         </section>
     </footer><!-- footer -->
 

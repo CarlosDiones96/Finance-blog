@@ -6,12 +6,17 @@
     content: url(images/coins-logo.png);
 }
 
+.toggle-icon{
+    content: url(images/menu.png) !important; 
+    height: 30px;
+    width: 30px;
+}
+
 .logo-img-small{
     height: 50px;
     width: 50px;
     content: url(images/coins-logo.png);
 }
-
 
 /* Images */
 .planejamento-img1{
@@ -31,11 +36,12 @@
 }
 
 .img-default-size{
-    width: 269px;
-    height: 180px;
+    min-width: 269px;
+    min-height: 180px;
+    width: 100%;
+    max-height: 280px;
+    object-fit:cover;
 }
-
-
 
 .sponsor-1{
     content: url(images/partners/appia-capital.jpg);
@@ -122,6 +128,11 @@
     padding: 6px;
 }
 
+.diagnostico-img:hover, .seguranca-financeira-img:hover,
+.rentabilidade-img:hover{
+    border: 10px solid #d62828;
+}
+
 .seguranca-financeira-img{
     content: url(images/light-bulb.png);
     width: 80px;
@@ -164,6 +175,28 @@ button.small-rounded-btn{
 
 .overfow-hidden{
     overflow: hidden;
+}
+
+.default-card-height{
+    height: 200px;
+    overflow: hidden;
+}
+
+.quotation-text::before, .quotation-text::after{
+    content: '"';
+    font-size: 40px;
+}
+
+p.quotation-text{
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1;
+    opacity: 0.8;
+}
+.small-img-footer{
+    width:100px;
+    height: auto;
+    object-fit: contain;
 }
 
 /******************************** OVERRIDES **************************/
@@ -251,7 +284,7 @@ footer a{
 }
 
 section.relative-element p{
-    color: #003049 !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 a.navbar-brand{
@@ -268,6 +301,10 @@ a, p{
     font-family: 'PT Serif', serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 h1, h2, h3, h4, h5{
     font-family: 'Arima Madurai', cursive !important;
 }
@@ -275,4 +312,8 @@ h1, h2, h3, h4, h5{
 section ul{
     list-style: none;
     padding-left: 0;
+}
+
+body{
+   margin-bottom: -1rem;
 }

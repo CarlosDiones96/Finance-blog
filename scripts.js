@@ -54,10 +54,6 @@ $(function () {
         $('#parceiro1').hide().slideDown('slow').siblings().hide();
     }
 
-    function animateNumbers(elt){
-
-    }
-
 
     function animateElement(btnId, eltId) {
         const id = '#' + btnId;
