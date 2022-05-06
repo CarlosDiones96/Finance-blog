@@ -173,12 +173,20 @@ button.small-rounded-btn{
     max-height: 86px;
 }
 
-.overfow-hidden{
+.max-depoimentos-height{
+    height: 137px;
     overflow: hidden;
 }
 
-.default-card-height{
-    height: 200px;
+.dropdown-menu a{
+    color: orangered !important;
+}
+
+.dropdown-menu a:hover{
+    background-color: #fcbf49 !important;
+}
+
+.overfow-hidden{
     overflow: hidden;
 }
 
